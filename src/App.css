@@ -13,8 +13,16 @@
   }
 }
 
+body {
+  background-color: slategrey; /* pick any color you like */
+  color: white;              /* make text white for contrast */
+  margin: 0;                 /* remove default margin */
+  min-height: 100vh;         /* full viewport height */
+}
+
+
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
